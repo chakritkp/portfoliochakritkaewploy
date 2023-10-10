@@ -1,0 +1,10 @@
+.bg {
+    background-image: linear-gradient(to right bottom, #27374d, #27374d, #27374d, #27374d, #27374d, #2a3b51, #2e4056, #31445a, #394e64, #41586e, #496278, #526d82);
+}
+
+* {
+    color: #ECF2FF;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
