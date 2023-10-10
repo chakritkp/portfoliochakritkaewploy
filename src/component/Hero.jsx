@@ -4,7 +4,7 @@ import Contact from './Contact'
 
 const Hero = () => {
   return (
-    <main>
+    <main id='Hero' className='pt-44 '>
       <div className='w-72 mx-auto mb-5'>
         <img className='w-fit rounded-lg' src={Profileimg} alt="" />
       </div>

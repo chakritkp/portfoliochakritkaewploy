@@ -14,7 +14,7 @@ import 'swiper/css/scrollbar';
 const Certificate = () => {
 
   return (
-    <div className='text-center mx-auto mb-5'>
+    <div className='text-center mx-auto mb-5' id='Certificate'>
       <h2 className='text-2xl font-bold mb-2'>Certificate</h2>
         
 
