@@ -1,5 +1,6 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom' 
+import { useState, useEffect } from "react";
+
 
 import { UilEstate } from '@iconscout/react-unicons'
 import { UilUser } from '@iconscout/react-unicons'
@@ -13,11 +14,28 @@ import { UilTimes } from '@iconscout/react-unicons'
 
 
 const Nav = () => {
+    const [shouldHide, setShouldHide] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollY = window.scrollY;
+            const scrollThreshold = 100;
+
+            setShouldHide(scrollY > scrollThreshold);
+
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        }
+    }, [])
+
   return (
-    <>
-        <div className='w-full p-4 '>
-            <div className='px-4 cursor-pointer text-center'>
-                <h1 className='font-black text-4xl'>CHAKRIT KAEWPLOY</h1>
+        <div className='bg-[#27374d] fixed top-0 left-0 right-0 w-full justify-between items-center p-5'>
+            <div className={`px-4 cursor-pointer text-center ${shouldHide ? "hidden " : ""}`}>
+                <h1 className='font-black text-3xl'>CHAKRIT KAEWPLOY</h1>
             </div>
 
             <ul className='flex p-3 gap-3 justify-center'>
@@ -27,18 +45,11 @@ const Nav = () => {
                 </li> */}
                 
                 <li className='cursor-pointer'>
-                    {/* <NavLink to={'/'}> */}
-                        <UilUser size="3rem" color="#61DAFB"/>
-                    {/* </NavLink> */}
-                    
-                    {/* <a>About</a> */}
+                    <a href="#Hero"><UilUser size="3rem" color="#61DAFB"/></a>
                 </li>
 
                 <li className='cursor-pointer'>
-                    {/* <NavLink to={'/contact'}> */}
-                        <UilMessage size="3rem" color="#61DAFB" />
-                        {/* <a>Contactme</a> */}
-                    {/* </NavLink> */}
+                    <a href='#Skill'><UilMessage size="3rem" color="#61DAFB" /></a>
                 </li>
 
                 {/* <li className='cursor-pointer'>
@@ -52,12 +63,13 @@ const Nav = () => {
                 </li> */}
 
                 <li className='cursor-pointer'>
-                    <UilClipboardAlt size="3rem" color="#61DAFB"/>
+                    <a href='#Project'><UilClipboardAlt size="3rem" color="#61DAFB"/></a> 
+                    
                     {/* <a>Skill</a> */}
                 </li>
 
                 <li className='cursor-pointer'>
-                    <UilBracketsCurly size="3rem" color="#61DAFB"/>
+                    <a href="#Certificate"><UilBracketsCurly size="3rem" color="#61DAFB"/></a>
                     {/* <a>Project</a> */}
                 </li>
             </ul>     
@@ -70,7 +82,6 @@ const Nav = () => {
 
         </div>
         
-    </>
   )
 }
 

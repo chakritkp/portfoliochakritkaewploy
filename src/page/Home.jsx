@@ -1,22 +1,22 @@
 import React from 'react'
 
-
-import Nav from '../component/Nav'
-import Hero from '../Component/Hero'
+import Hero from '../component/Hero'
 import Skill from '../component/Skill'
 import Project from '../component/Project'
 import Certificate from '../component/Certificate'
-import BackgroundLayout from '../layout/BackgroundLayout'
+
+import Layout from '../layout/Layout'
+import Totop from '../component/Totop'
 
 const Home = () => {
   return (
-    <BackgroundLayout>
-      <Nav/>
+    <Layout>
       <Hero/>
       <Skill/>
       <Project/>
       <Certificate/>
-    </BackgroundLayout>
+      <Totop/>
+    </Layout>    
   )
 }
 
