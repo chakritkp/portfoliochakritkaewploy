@@ -1,10 +1,18 @@
-* {
+html {
     color: #ECF2FF;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
+
+section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+
 
 .bg {
     background-image: linear-gradient(to right bottom, #27374d, #27374d, #27374d, #27374d, #27374d, #2a3b51, #2e4056, #31445a, #394e64, #41586e, #496278, #526d82);
