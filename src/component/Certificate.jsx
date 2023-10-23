@@ -18,7 +18,7 @@ const Certificate = () => {
       id="Certificate"
     >
       <div className="w-full">
-      <h2 className="text-2xl text-center mb-10">Certificate</h2>
+      <h2 className="text-3xl text-center font-bold mb-10">Certificate</h2>
 
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
