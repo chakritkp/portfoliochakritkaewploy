@@ -3,7 +3,9 @@ import { UilHtml5Alt } from "@iconscout/react-unicons";
 import { UilCss3Simple } from "@iconscout/react-unicons";
 import { UilReact } from "@iconscout/react-unicons";
 import nodejs from "../assets/nodejs.png";
+import expressjs from "../assets/expressjs.png";
 import JavaScript from "../assets/javascript.png";
+import Tailwindcss from "../assets/Tailwindcss.png";
 
 const Skill = () => {
   return (
@@ -28,6 +30,11 @@ const Skill = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center">
+            <img src={Tailwindcss} alt="" className="w-[4rem]" />
+            <p className="text-base font-medium">CSS</p>
+          </div>
+
+          <div className="flex flex-col justify-center items-center">
             <img src={JavaScript} alt="" className="w-[4rem]" />
             <p className="text-base font-medium">JAVASCRIPT</p>
           </div>
@@ -43,6 +50,10 @@ const Skill = () => {
           <div className="flex flex-col justify-center items-center">
             <img src={nodejs} alt="" />
             <p className="text-base font-medium">NODE.JS</p>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <img src={expressjs} alt="" />
+            <p className="text-base font-medium">EXPRESS.JS</p>
           </div>
         </div>
       </div>

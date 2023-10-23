@@ -45,7 +45,7 @@ const Nav = () => {
                     <a>Home</a>
                 </li> */}
                 
-                <li className='cursor-pointer'>
+                <li className='cursor-pointer '>
                     <a href="#Hero"><UilUser size="3rem" color="#61DAFB"/></a>
                 </li>
 
