@@ -9,6 +9,7 @@ import { UilBriefcaseAlt } from '@iconscout/react-unicons'
 import { UilMessage } from '@iconscout/react-unicons'
 import { UilClipboardAlt } from '@iconscout/react-unicons'
 import { UilBracketsCurly } from '@iconscout/react-unicons'
+import { UilArrow } from '@iconscout/react-unicons'
 import { UilApps } from '@iconscout/react-unicons'
 import { UilTimes } from '@iconscout/react-unicons'
 
@@ -49,7 +50,7 @@ const Nav = () => {
                 </li>
 
                 <li className='cursor-pointer'>
-                    <a href='#Skill'><UilMessage size="3rem" color="#61DAFB" /></a>
+                    <a href='#Skill'><UilArrow size="3rem" color="#61DAFB" /></a>
                 </li>
 
                 {/* <li className='cursor-pointer'>
@@ -63,13 +64,13 @@ const Nav = () => {
                 </li> */}
 
                 <li className='cursor-pointer'>
-                    <a href='#Project'><UilClipboardAlt size="3rem" color="#61DAFB"/></a> 
+                    <a href='#Project'><UilBracketsCurly size="3rem" color="#61DAFB"/></a> 
                     
                     {/* <a>Skill</a> */}
                 </li>
 
                 <li className='cursor-pointer'>
-                    <a href="#Certificate"><UilBracketsCurly size="3rem" color="#61DAFB"/></a>
+                    <a href="#Certificate"><UilGraduationCap size="3rem" color="#61DAFB"/></a>
                     {/* <a>Project</a> */}
                 </li>
             </ul>     
