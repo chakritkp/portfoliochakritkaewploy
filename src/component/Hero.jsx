@@ -13,7 +13,7 @@ const Hero = () => {
         <Contact/>
         <article className='m-auto min-w-[300px] max-w-[500px]'>
           <h2 className='text-center text-3xl font-bold mb-3'>SUMMARY</h2>
-          <p className='text-base font-medium text-justify'>Hi, my name is Chakrit, but you can call me Guy. I've transitioned my career to become a Software Developer. I was previously employed at the New Economy Academy (NEA) where I was responsible for overseeing the procurement for corporate websites and e-learning platforms as a civil service assistant for 3 years. Later, I joined the Junior Software Developer program through Generation Thailand. Now, I'm excited to start my career as a software developer!</p>
+          <p className='text-base font-medium text-justify'>Hi, my name is Chakrit Kaewploy but you can call me Guy. I've transitioned my career to become a Software Developer. I was previously employed at the New Economy Academy (NEA) where I was responsible for overseeing the procurement for corporate websites and e-learning platforms as a civil service assistant for 3 years. Later, I joined the Junior Software Developer program through Generation Thailand. Now, I'm excited to start my career as a software developer!</p>
         </article>
       </div>
     </section>
