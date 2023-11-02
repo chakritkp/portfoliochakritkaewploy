@@ -34,7 +34,7 @@ const Nav = () => {
     }, [])
 
   return (
-        <div className='bg-[#27374d] fixed top-0 left-0 right-0 w-full justify-between items-center p-5'>
+        <div className='bg-[#27374d] z-10 fixed top-0 left-0 right-0 w-screen justify-between h-[100px] items-center p-5'>
             <div className={`px-4 cursor-pointer text-center ${shouldHide ? "hidden " : ""}`}>
                 <h1 className='font-black text-3xl'>CHAKRIT KAEWPLOY</h1>
             </div>
@@ -45,7 +45,7 @@ const Nav = () => {
                     <a>Home</a>
                 </li> */}
                 
-                <li className='cursor-pointer '>
+                <li className='cursor-pointer'>
                     <a href="#Hero"><UilUser size="3rem" color="#61DAFB"/></a>
                 </li>
 

@@ -5,6 +5,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import ES6Certificate from "../assets/Certificate/es6.png";
 import ReactCertificate from "../assets/Certificate/react.png";
 import ReactHookCertificate from "../assets/Certificate/reacthook.png";
+import JSD5Certificate from '../assets/Certificate/JSD5.png'
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -27,17 +28,18 @@ const Certificate = () => {
         navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <img src={ES6Certificate} alt="ES6Certigicate" />,
+          <img src={JSD5Certificate} className="min-h-[180px] lg:h-[400px]" alt="JSD5Certificate" />,
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ReactCertificate} alt="ReactCertificate" />,
+          <img src={ES6Certificate} className="min-h-[180px] lg:h-[400px]" alt="ES6Certigicate" />,
         </SwiperSlide>
         <SwiperSlide>
-          <img src={ReactHookCertificate} alt="ReactHookCertificate" />,
+          <img src={ReactCertificate} className="min-h-[180px] lg:h-[400px]" alt="ReactCertificate" />,
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={ReactHookCertificate} className="min-h-[180px] lg:h-[400px]" alt="ReactHookCertificate" />,
         </SwiperSlide>
       </Swiper>
         
