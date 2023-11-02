@@ -31,7 +31,7 @@ const Skill = () => {
 
           <div className="flex flex-col justify-center items-center">
             <img src={Tailwindcss} alt="" className="w-[4rem]" />
-            <p className="text-base font-medium">CSS</p>
+            <p className="text-base font-medium">TAILWIND</p>
           </div>
 
           <div className="flex flex-col justify-center items-center">
