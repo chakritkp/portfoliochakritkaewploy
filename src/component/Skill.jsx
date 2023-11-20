@@ -6,6 +6,7 @@ import nodejs from "../assets/nodejs.png";
 import expressjs from "../assets/expressjs.png";
 import JavaScript from "../assets/javascript.png";
 import Tailwindcss from "../assets/Tailwindcss.png";
+import Java from "../assets/java.png";
 
 const Skill = () => {
   return (
@@ -18,7 +19,7 @@ const Skill = () => {
 
         <h2 className="text-xl font-bold mb-2">FRONTEND</h2>
 
-        <div className="flex gap-3 justify-center">
+        <div className="flex gap-3 flex-wrap justify-center">
           <div className="flex flex-col justify-center items-center">
             <UilHtml5Alt className="m-auto" size="4rem" color="#61DAFB" />
             <p className="text-base font-medium">HTML5</p>
@@ -41,7 +42,12 @@ const Skill = () => {
 
           <div className="flex flex-col justify-center items-center">
             <UilReact className="m-auto" size="4rem" color="#61DAFB" />
-            <p className="text-base font-medium">REACT</p>
+            <p className="text-base font-medium">REACT.JS</p>
+          </div>
+
+          <div className="flex flex-col justify-center items-center">
+             <img src={Java} alt="" className="w-[4rem]" />
+            <p className="text-base font-medium">JAVA</p>
           </div>
         </div>
         <h2 className="text-xl font-bold mb-2 pt-10">BACKEND</h2>

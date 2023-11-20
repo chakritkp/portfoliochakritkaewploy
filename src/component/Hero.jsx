@@ -19,15 +19,10 @@ const Hero = () => {
         <div>
           <article className="m-auto min-w-[300px] max-w-[500px] flex flex-col lg:items-start">
             <h2 className="text-center text-3xl font-bold mb-3">SUMMARY</h2>
-            <p className="text-base font-medium text-justify">
-              Hi, my name is Chakrit Kaewploy but you can call me Guy. I've
-              transitioned my career to become a Software Developer. I was
-              previously employed at the New Economy Academy (NEA) where I was
-              responsible for overseeing the procurement for corporate websites
-              and e-learning platforms as a civil service assistant for 3 years.
-              Later, I joined the Junior Software Developer program through
-              Generation Thailand. Now, I'm excited to start my career as a
-              software developer!
+            <p className="px-5 text-base font-medium text-justify overflow-auto h-[180px] lg:px-0 lg:overflow-hidden lg:h-full">
+            Hello, I'm Chakrit Kaewploy, a Software Developer. Previously, I worked as a civil servant at NEA under the Ministry of Commerce, overseeing procurement projects for the NEA and E-Academy websites for four years. Following that, I was selected to join the 5th edition of the Junior Software Developer program, a boot camp designed for career changers aspiring to become Software Developers. The program focused on teaching the MERN Stack, and participants were required to complete a project before graduating.
+            <br/>
+            In my project, I was responsible for the User system, developing features for Login, Register, and Update functionalities on both the Frontend and Backend. Currently, I am actively seeking opportunities in Frontend Development and Fullstack Development. In the future, I plan to further enhance my skills and pursue a career as a Mobile Developer.
             </p>
           </article>
         </div>
