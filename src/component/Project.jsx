@@ -18,9 +18,12 @@ import nodejs from "../assets/nodejs.png";
 import expressjs from "../assets/expressjs.png";
 import mongo from "../assets/mongo.png";
 import { UilReact } from "@iconscout/react-unicons";
+import ReduxToolkit from '../assets/reduxtoolkit.png'
+import Firebase from '../assets/firebase.png'
 import colmaracademyimg from "../assets/colmaracademy.jpg";
 import reactassessment from "../assets/reactassessment.png";
 import finalproject from "../assets/finalprojectjsd.png";
+import myProject from '../assets/productlist.png'
 
 const Project = () => {
   return (
@@ -55,7 +58,7 @@ const Project = () => {
             </CardHeader>
             <CardBody>
               <Typography variant="h4" color="blue-gray">
-                <h2 className="text-xl font-bold">Colmar Academyy</h2>
+                <h2 className="text-xl font-bold">Colmar Academy</h2>
                 <h2 className="text-xl font-bold mb-2">Codecademy</h2>
               </Typography>
               <Typography
@@ -181,6 +184,65 @@ const Project = () => {
                 </Tooltip>
                 <Tooltip>
                   <img src={mongo} alt="" className="w-[2rem]" />
+                </Tooltip>
+              </div>
+            </CardFooter>
+          </Card>
+        </SwiperSlide>
+
+        <SwiperSlide className="px-5">
+          <Card className="max-w-[24rem] overflow-hidden mb-5">
+            <CardHeader
+              floated={false}
+              shadow={false}
+              color="transparent"
+              className="m-0 rounded-none mb-5 h-[150px] lg:h-[200px]"
+            >
+              <a
+                href="https://myproject-8bf16.web.app/"
+                target="_blank"
+              >
+                <img src={myProject} alt="myProject" />
+              </a>
+            </CardHeader>
+            <CardBody>
+              <Typography variant="h4" color="blue-gray">
+                <h2 className="text-xl font-bold">Productlist</h2>
+                <h2 className="text-xl font-bold mb-2">My Project</h2>
+              </Typography>
+              <Typography
+                variant="lead"
+                color="gray"
+                className="my-3 text-base font-medium text-justify px-5 h-[100px] overflow-auto"
+              >
+                
+              </Typography>
+            </CardBody>
+            <CardFooter className="flex items-center justify-between">
+              <div className="flex items-center -space-x-3 gap-5">
+                <Tooltip>
+                  <img src={JavaScript} alt="" className="w-[2rem]" />
+                </Tooltip>
+                <Tooltip>
+                  <img src={Tailwindcss} alt="" className="w-[2rem]" />
+                </Tooltip>
+                <Tooltip>
+                  <UilReact className="m-auto" size="2rem" color="#61DAFB" />
+                </Tooltip>
+                <Tooltip>
+                  <img src={ReduxToolkit} alt="" className="w-[2rem]" />
+                </Tooltip>
+                <Tooltip>
+                  <img src={nodejs} alt="" className="w-[2rem]" />
+                </Tooltip>
+                <Tooltip>
+                  <img src={expressjs} alt="" className="w-[2rem]" />
+                </Tooltip>
+                <Tooltip>
+                  <img src={mongo} alt="" className="w-[2rem]" />
+                </Tooltip>
+                <Tooltip>
+                  <img src={Firebase} alt="" className="w-[2rem]" />
                 </Tooltip>
               </div>
             </CardFooter>
