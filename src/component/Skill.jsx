@@ -5,8 +5,9 @@ import { UilReact } from "@iconscout/react-unicons";
 import nodejs from "../assets/nodejs.png";
 import expressjs from "../assets/expressjs.png";
 import JavaScript from "../assets/javascript.png";
+import TYPESCRIPT from "../assets/icons8-typescript-96.png";
 import Tailwindcss from "../assets/Tailwindcss.png";
-import Java from "../assets/java.png";
+import NESTJS from "../assets/icons8-nestjs-96.png";
 
 const Skill = () => {
   return (
@@ -41,18 +42,23 @@ const Skill = () => {
           </div>
 
           <div className="flex flex-col justify-center items-center">
+             <img src={TYPESCRIPT} alt="" className="w-[4rem]" />
+            <p className="text-base font-medium">TYPESCRIPT</p>
+          </div>
+
+          <div className="flex flex-col justify-center items-center">
             <UilReact className="m-auto" size="4rem" color="#61DAFB" />
             <p className="text-base font-medium">REACT.JS</p>
           </div>
 
-          <div className="flex flex-col justify-center items-center">
-             <img src={Java} alt="" className="w-[4rem]" />
-            <p className="text-base font-medium">JAVA</p>
-          </div>
         </div>
         <h2 className="text-xl font-bold mb-2 pt-10">BACKEND</h2>
 
         <div className="flex gap-3 justify-center">
+        <div className="flex flex-col justify-center items-center">
+            <img src={NESTJS} alt="" />
+            <p className="text-base font-medium">NEST.JS</p>
+          </div>
           <div className="flex flex-col justify-center items-center">
             <img src={nodejs} alt="" />
             <p className="text-base font-medium">NODE.JS</p>
