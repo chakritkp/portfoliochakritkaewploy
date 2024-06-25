@@ -13,10 +13,10 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import { UilHtml5Alt } from "@iconscout/react-unicons";
 import { UilCss3Simple } from "@iconscout/react-unicons";
 import JavaScript from "../assets/javascript.png";
-import Tailwindcss from "../assets/Tailwindcss.png";
-import nodejs from "../assets/nodejs.png";
-import expressjs from "../assets/expressjs.png";
-import mongo from "../assets/mongo.png";
+import Tailwind from "../assets/Tailwindcss.png";
+import Nodejs from "../assets/nodejs.png";
+import Expressjs from "../assets/expressjs.png";
+import MongodDB from "../assets/mongo.png";
 import { UilReact } from "@iconscout/react-unicons";
 import ReduxToolkit from '../assets/reduxtoolkit.png'
 import Firebase from '../assets/firebase.png'
@@ -168,7 +168,7 @@ const Project = () => {
             <CardFooter className="flex items-center justify-between">
               <div className="flex items-center -space-x-3 gap-5">
                 <Tooltip>
-                  <img src={Tailwindcss} alt="" className="w-[2rem]" />
+                  <img src={Tailwind} alt="" className="w-[2rem]" />
                 </Tooltip>
                 <Tooltip>
                   <img src={JavaScript} alt="" className="w-[2rem]" />
@@ -177,13 +177,13 @@ const Project = () => {
                   <UilReact className="m-auto" size="2rem" color="#61DAFB" />
                 </Tooltip>
                 <Tooltip>
-                  <img src={nodejs} alt="" className="w-[2rem]" />
+                  <img src={Nodejs} alt="" className="w-[2rem]" />
                 </Tooltip>
                 <Tooltip>
-                  <img src={expressjs} alt="" className="w-[2rem]" />
+                  <img src={Expressjs} alt="" className="w-[2rem]" />
                 </Tooltip>
                 <Tooltip>
-                  <img src={mongo} alt="" className="w-[2rem]" />
+                  <img src={MongodDB} alt="" className="w-[2rem]" />
                 </Tooltip>
               </div>
             </CardFooter>
@@ -224,7 +224,7 @@ const Project = () => {
                   <img src={JavaScript} alt="" className="w-[2rem]" />
                 </Tooltip>
                 <Tooltip>
-                  <img src={Tailwindcss} alt="" className="w-[2rem]" />
+                  <img src={Tailwind} alt="" className="w-[2rem]" />
                 </Tooltip>
                 <Tooltip>
                   <UilReact className="m-auto" size="2rem" color="#61DAFB" />
@@ -233,13 +233,13 @@ const Project = () => {
                   <img src={ReduxToolkit} alt="" className="w-[2rem]" />
                 </Tooltip>
                 <Tooltip>
-                  <img src={nodejs} alt="" className="w-[2rem]" />
+                  <img src={Nodejs} alt="" className="w-[2rem]" />
                 </Tooltip>
                 <Tooltip>
-                  <img src={expressjs} alt="" className="w-[2rem]" />
+                  <img src={Expressjs} alt="" className="w-[2rem]" />
                 </Tooltip>
                 <Tooltip>
-                  <img src={mongo} alt="" className="w-[2rem]" />
+                  <img src={MongodDB} alt="" className="w-[2rem]" />
                 </Tooltip>
                 <Tooltip>
                   <img src={Firebase} alt="" className="w-[2rem]" />

@@ -1,5 +1,5 @@
 import React from "react";
-import Profileimg from "../assets/386864020_599299545535922_5474428551062761694_n.jpg";
+import Profileimg from "../assets/display.jpg";
 import Contact from "./Contact";
 
 const Hero = () => {
@@ -11,7 +11,6 @@ const Hero = () => {
       <div className="lg:flex justify-center items-center gap-5">
 
         <div className="mx-auto w-60 lg:w-72 mb-5">
-          {/* <img className='w-fit rounded-lg' src={Profileimg} alt="Profile" /> */}
           <img className="w-fit rounded-lg" src={Profileimg} alt="Profile" />
           <Contact />
         </div>

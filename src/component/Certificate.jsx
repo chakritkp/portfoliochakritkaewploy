@@ -6,6 +6,7 @@ import ES6Certificate from "../assets/Certificate/es6.png";
 import ReactCertificate from "../assets/Certificate/react.png";
 import ReactHookCertificate from "../assets/Certificate/reacthook.png";
 import JSD5Certificate from '../assets/Certificate/JSD5.png'
+import Docker from '../assets/Certificate/Docker.png'
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -31,6 +32,9 @@ const Certificate = () => {
       >
         <SwiperSlide>
           <img src={JSD5Certificate} className="min-h-[180px] lg:h-[400px]" alt="JSD5Certificate" />,
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Docker} className="min-h-[180px] lg:h-[400px]" alt="Docker" />,
         </SwiperSlide>
         <SwiperSlide>
           <img src={ES6Certificate} className="min-h-[180px] lg:h-[400px]" alt="ES6Certigicate" />,
