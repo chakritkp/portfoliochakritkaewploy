@@ -17,7 +17,7 @@ const Contact = () => {
         <UilLinkedin size="3rem" color="#61DAFB" />
       </a>
       <a
-        href="https://drive.google.com/file/d/1EKfzxlzuIP23YsXK8WaOx5SnG6GKn6n5/view?usp=sharing"
+        href="https://drive.google.com/file/d/1UH4FpsJlmqqKgPIw53FF_V-iIHBMV8QC/view?usp=sharing"
         target="_blank"
       >
         <UilFileExport size="3rem" color="#61DAFB" />
